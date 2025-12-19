@@ -1,0 +1,27 @@
+.cta {
+  background: #f5f7fa;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta h2 {
+  font-size: 32px;
+  color: #263238;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background: #4caf4f;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cta h2 {
+    font-size: 24px;
+  }
+}

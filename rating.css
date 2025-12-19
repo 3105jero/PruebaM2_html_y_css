@@ -1,0 +1,50 @@
+.rating {
+  margin: 90px 0;
+}
+
+.rating-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rating-card {
+  width: 300px;
+  background: #ffffff;
+  padding: 30px 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.rating-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.rating-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.rating-card p {
+  font-size: 14px;
+  color: var(--second-color);
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .rating-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
